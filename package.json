@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/emkay/matuzi-co#readme",
   "dependencies": {
+    "domready": "^1.0.8",
+    "text-3d-particles": "^0.4.0"
   },
   "devDependencies": {
     "browserify": "^11.0.1"

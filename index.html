@@ -2,6 +2,27 @@
 <html>
     <head>
         <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.4/basscss.min.css" rel="stylesheet">
+        <style>
+            blockquote {
+                background: #f9f9f9;
+                border-left: 10px solid #ccc;
+                margin: 1.5em 10px;
+                padding: 0.5em 10px;
+                quotes: "\201C""\201D""\2018""\2019";
+            }
+            blockquote:before {
+                color: #ccc;
+                content: open-quote;
+                font-size: 4em;
+                line-height: 0.1em;
+                margin-right: 0.25em;
+                vertical-align: -0.4em;
+            }
+            blockquote p {
+                display: inline;
+            }
+        </style>
+        <script src="bundle.js"></script>
     </head>
     <body>
         <nav class="clearfix white bg-black">
@@ -15,8 +36,35 @@
         </nav>
         <div class="container">
             <div class="clearfix">
-                <h1>Matuzi Co</h1>
-                <p>Here at <span class="bold">Matuzi Co</span> we believe that thought travels at the speed of thought. We put that to good use.</p>
+                <div class="logo h1"></div>
+                <p class="h2">Here at <span class="bold">Matuzi Co</span> we believe that thought travels at the speed of thought. We put that to good use. You probably need help. We can help. Here are a few things that we specialize in.</p>
+                <section class="container px2 py3">
+                    <div class="clearfix mxn2">
+                        <div class="sm-col sm-col-4 px2">
+                            <h2 class="h1 mb0">Startups</h2>
+                            <p>You probably have a start up. Let's be honest, who doesn't. The problem is you have no idea what you are doing. Let's both not have any idea what we are doing together.</p>
+                        </div>
+                        <div class="sm-col sm-col-4 px2">
+                            <h2 class="h1 mb0">Endups</h2>
+                            <p>Is your startup failing? No problem. Sit back, relax, and let us shut it down. You just spent the best years of your life working 16 hour days. You may have neglected your health and you probably just need a break. We're here for you.</p>
+                        </div>
+                        <div class="sm-col sm-col-4 px2">
+                            <h2 class="h1 mb0">Downups</h2>
+                            <p>This is a new one that we are experimenting with. I don't really recommend this service, but if you want to pay us $200 we can give you a 1 hour explanation of it. It's probably not for you. Don't pick this one.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <blockquote>I'm gonna get that chicken bake. - Some person at Costco ordering food</blockquote>
+                <p>Do you have websites? We can do that. What about a dog? Oh we for sure can walk that dog. Maybe you just need someone to hang out with. Maybe. Let's not get ahead of ourselves. Here is some more stuff we are great at.</p>
+                <ul>
+                    <li>Websites</li>
+                    <li>Phone numbers</li>
+                    <li>Lions</li>
+                    <li>Panthers</li>
+                </ul>
+                <blockquote>Who are we? - Myself</blockquote>
+                <p>Hey we all have busy lives. We hear you. We understand. You don't have time to give your pets water or walk places. Let us help out with that. It's what we do.</p>
             </div>
         </div>
 
