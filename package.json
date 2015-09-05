@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "matuzi-co",
+  "version": "1.0.0",
+  "description": "Matuzi Co",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emkay/matuzi-co.git"
+  },
+  "keywords": [
+    "matuzi",
+    "co"
+  ],
+  "author": "Michael Matuzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emkay/matuzi-co/issues"
+  },
+  "homepage": "https://github.com/emkay/matuzi-co#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1"
+  }
+}
